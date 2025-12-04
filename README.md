@@ -1,12 +1,63 @@
-Trợ lý phân loại cảm xúc tiếng Việt (Tích cực / Trung tính / Tiêu cực) sử dụng Transformer PhoBERT.
+# 🇻🇳 Vietnamese Sentiment Assistant
 
-## Đặc điểm nổi bật
-- Độ chính xác > 94% trên dữ liệu thực tế
-- Xử lý tốt teencode, viết tắt, thiếu dấu
-- Giao diện Streamlit đẹp, có lịch sử + SQLite
-- Đạt 100% yêu cầu đồ án (10/10 test case)
+### **Phân loại cảm xúc tiếng Việt sử dụng Transformer (PhoBERT + Streamlit)**
 
-## Cách chạy
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+> **Đồ án Seminar -- 👥 Nhóm 2 người**
+| STT | Họ và Tên              | MSSV       |
+| :-: | ---------------------- | ---------- |
+|  1  | Nguyễn Hoàng Thiên Bảo | 3122410019 |
+|  2  | Bạch Thị Mỹ Hoà        | 3122410120 |
+
+## 📌 1. Giới thiệu
+
+Dự án xây dựng ứng dụng phân loại cảm xúc tiếng Việt vào 3 nhãn:
+POSITIVE, NEUTRAL, NEGATIVE. Ứng dụng sử dụng mô hình PhoBERT
+(fine-tuned) kết hợp Streamlit và chạy hoàn toàn offline.
+
+## 🎯 2. Mục tiêu dự án
+
+-   Xây dựng ứng dụng phân loại cảm xúc tiếng Việt.
+-   Tích hợp Transformer pre-trained của Hugging Face.
+-   Hỗ trợ teencode, thiếu dấu, từ lóng.
+-   Lưu trữ lịch sử bằng SQLite.
+-   Đạt độ chính xác ≥ 65% (thực tế đạt 100%).
+
+## 🧠 3. Công nghệ sử dụng
+
+-   Python, Streamlit
+-   PhoBERT (trituenhantao/io.vn_sentiment_phobert)
+-   Hugging Face Transformers
+-   Underthesea, SQLite3, Torch
+
+## 📁 4. Cấu trúc thư mục
+
+    SEMINAR/
+    │── app.py
+    │── requirements.txt
+    │── sentiment.db
+    │── README.md
+    └── utils/
+        └── teencode_dict.py
+
+## ⚙️ 5. Hướng dẫn cài đặt
+
+    pip install -r requirements.txt
+    streamlit run app.py
+
+## 🖥️ 6. Cách sử dụng
+
+Nhập câu tiếng Việt → Nhấn "Phân loại cảm xúc" → Xem kết quả và lịch sử.
+
+## 🧪 7. Kết quả kiểm thử
+
+10/10 test case chính thức đạt đúng toàn bộ → Accuracy = 100%.
+
+## 🚀 8. Hướng phát triển
+
+-   Xây dựng API.
+-   Phân tích đoạn văn dài.
+-   Dashboard thống kê lịch sử.
+
+## 📚 9. Tài liệu tham khảo
+
+PhoBERT -- VinAI, Hugging Face, Streamlit, Underthesea.
