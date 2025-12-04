@@ -1,12 +1,15 @@
-# 🇻🇳 Vietnamese Sentiment Assistant
+# Vietnamese Sentiment Assistant
 
 ### **Phân loại cảm xúc tiếng Việt sử dụng Transformer (PhoBERT + Streamlit)**
 
 > **Đồ án Seminar -- 👥 Nhóm 2 người**
+
 | STT | Họ và Tên              | MSSV       |
 | :-: | ---------------------- | ---------- |
 |  1  | Nguyễn Hoàng Thiên Bảo | 3122410019 |
 |  2  | Bạch Thị Mỹ Hoà        | 3122410120 |
+
+---
 
 ## 📌 1. Giới thiệu
 
@@ -41,7 +44,9 @@ POSITIVE, NEUTRAL, NEGATIVE. Ứng dụng sử dụng mô hình PhoBERT
 
 ## ⚙️ 5. Hướng dẫn cài đặt
 
+    Bước 1 : Cài thư viện trong file requirements.txt:
     pip install -r requirements.txt
+    Bước 2 : Chạy ứng dụng:
     streamlit run app.py
 
 ## 🖥️ 6. Cách sử dụng
