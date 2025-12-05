@@ -55,7 +55,7 @@ Nhập câu tiếng Việt → Nhấn "Phân loại cảm xúc" → Xem kết qu
 
 ## 🧪 7. Kết quả kiểm thử
 
-10/10 test case chính thức đạt đúng toàn bộ → Accuracy = 100%.
+10/10 test case chính thức đạt đúng toàn bộ
 
 ## 🚀 8. Hướng phát triển
 
