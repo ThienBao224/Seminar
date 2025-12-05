@@ -215,7 +215,7 @@ if st.checkbox("Xem lịch sử (50 gần nhất)"):
 # =======================================================
 # 9. TESTCASE (10 CÓ DẤU + 10 KHÔNG DẤU)
 # =======================================================
-st.sidebar.header("🧪 Kiểm thử mô hình")
+st.sidebar.header("Kiểm thử testcase")
 
 test_cases = [
     {"text": "Hôm nay tôi rất vui", "expected": "POSITIVE"},
