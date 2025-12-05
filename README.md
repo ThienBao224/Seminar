@@ -38,9 +38,6 @@ POSITIVE, NEUTRAL, NEGATIVE. Ứng dụng sử dụng mô hình PhoBERT
     │── sentiment.db            # Database lưu lịch sử (tự tạo)
     │── README.md               # Tài liệu mô tả dự án
     │
-    └── utils/
-        └── teencode_dict.py    # Từ điển teencode -> tiếng Việt chuẩn
-
 
 ## ⚙️ 5. Hướng dẫn cài đặt
 
