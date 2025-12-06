@@ -7,6 +7,13 @@ import pandas as pd
 import unicodedata
 import re
 
+# CẤU HÌNH TRANG (PHẢI Ở ĐẦU TIÊN!)
+st.set_page_config(
+    page_title="Phân loại cảm xúc",
+    page_icon="🤖",
+    layout="wide"
+)
+
 # =======================================================
 # 1. HÀM BỎ DẤU
 # =======================================================
@@ -346,12 +353,6 @@ test_cases = [
 # =======================================================
 # 12. STREAMLIT UI - GIAO DIỆN DASHBOARD 
 # =======================================================
-
-st.set_page_config(
-    page_title="Phân loại cảm xúc",
-    page_icon="🤖",
-    layout="wide"
-)
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.title("Chọn chức năng")
