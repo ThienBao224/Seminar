@@ -40,12 +40,16 @@ POSITIVE, NEUTRAL, NEGATIVE. Ứng dụng sử dụng mô hình PhoBERT
     │
 
 ## ⚙️ 5. Hướng dẫn cài đặt
+
 Cách 1: git clone https://github.com/ThienBao224/SEMINAR.git
+   
     Bước 1 : Cài thư viện trong file requirements.txt:
     pip install -r requirements.txt
     Bước 2 : Chạy ứng dụng:
     streamlit run app.py
+
 Cách 2: Truy cập vào trang: https://seminarapp.streamlit.app/ (Lưu ý để trang mở phải chờ 30s)
+
 ## 🖥️ 6. Cách sử dụng
 
 Nhập câu tiếng Việt → Nhấn "Phân loại cảm xúc" → Xem kết quả và lịch sử.
